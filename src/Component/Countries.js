@@ -24,6 +24,7 @@ const Countries = () => {
           defaultValue={rangeValue}
           onChange={(e) => setRangeValue(e.target.value)}
         />
+        <h4>{rangeValue}</h4>
         {continents.map((continent) => (
           <li key={continent}>
             <input
